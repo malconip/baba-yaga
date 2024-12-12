@@ -1,0 +1,12 @@
+{
+  "name": "baba-yaga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "baba-yaga.js",
+  "scripts": {
+    "start": "node baba-yaga.js"
+  },
+  "dependencies": {
+    "puppeteer": "^18.0.0"
+  }
+}

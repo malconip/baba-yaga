@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  baba-yaga:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Uncomment the line below if you need to expose ports
+    # ports:
+    #   - "3000:3000"
+    #volumes:
+    # - .:/app
+    # Uncomment and modify the environment if needed
+    # environment:
+    #   - NODE_ENV=production
